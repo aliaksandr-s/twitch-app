@@ -1,8 +1,25 @@
 .App {
   max-width: 500px;
-  margin: 20px auto 0 auto
+  margin: 20px auto 20px auto;
+  padding: 0 10px;
 }
 
 .m-b-0 {
   margin-bottom: 0px !important;
+}
+
+.m-t-6 {
+  margin-top: 6px;
+}
+
+.f-r {
+  float: right
+}
+
+.b-animation {
+  transition : border 200ms ease-out !important;
+}
+
+.b-animation:hover {
+  border-left: 3px solid #00B5AD !important
 }
