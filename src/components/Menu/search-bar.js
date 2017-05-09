@@ -10,7 +10,7 @@ const SeacrhBar = props => (
     icon="search"
     placeholder="Search..."
     fluid
-    style={{ margin: "15px 0" }}
+    style={{ margin: "15px 0", fontSize: '1.2em' }}
   />
 )
 
